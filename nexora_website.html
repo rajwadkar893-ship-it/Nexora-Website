@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexora — Smart Business Assistant</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#f7f8fc;color:#111827;line-height:1.6}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 7%;background:#fff;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:5}
+.logo{font-size:25px;font-weight:800}.logo span{color:#6366f1}
+nav a{text-decoration:none;color:#374151;margin-left:24px;font-weight:600}
+.hero{padding:85px 7% 75px;text-align:center;background:linear-gradient(135deg,#eef2ff,#fff)}
+.badge{display:inline-block;padding:8px 14px;border-radius:30px;background:#e0e7ff;color:#4338ca;font-weight:700;font-size:13px}
+h1{font-size:clamp(40px,7vw,72px);line-height:1.05;margin:22px auto;max-width:850px}
+.hero p{max-width:650px;margin:0 auto 30px;color:#4b5563;font-size:19px}
+.btn{display:inline-block;padding:14px 24px;border-radius:10px;background:#4f46e5;color:white;text-decoration:none;font-weight:700;margin:5px}
+.btn.alt{background:#fff;color:#4f46e5;border:1px solid #c7d2fe}
+section{padding:70px 7%}
+.title{text-align:center;font-size:34px;margin-bottom:12px}.sub{text-align:center;color:#6b7280;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1050px;margin:auto}
+.card{background:#fff;padding:28px;border:1px solid #e5e7eb;border-radius:16px;box-shadow:0 8px 25px rgba(0,0,0,.04)}
+.card h3{margin:12px 0 8px}.icon{font-size:30px}
+.price{font-size:34px;font-weight:800;margin:15px 0}.card ul{list-style:none;color:#4b5563}.card li{margin:8px 0}
+.cta{background:#111827;color:#fff;text-align:center}.cta p{color:#d1d5db;margin:12px auto 25px}
+footer{text-align:center;padding:25px;color:#6b7280;background:#fff}
+@media(max-width:650px){nav{padding:16px 5%}nav div:last-child{display:none}section{padding:55px 5%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Nex<span>ora</span></div>
+  <div><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <span class="badge">AI-Powered Business Assistant</span>
+  <h1>Grow your business.<br><span style="color:#4f46e5">Let AI handle the routine.</span></h1>
+  <p>Nexora helps local businesses manage customer enquiries, follow-ups, appointment messages and daily content — simply and efficiently.</p>
+  <a class="btn" href="#contact">Get a Free Demo</a>
+  <a class="btn alt" href="#services">See How It Works</a>
+</header>
+
+<section id="services">
+  <h2 class="title">What Nexora can do</h2>
+  <p class="sub">Simple tools for businesses that want to save time and respond faster.</p>
+  <div class="grid">
+    <div class="card"><div class="icon">💬</div><h3>Smart Replies</h3><p>Professional answers for common customer questions.</p></div>
+    <div class="card"><div class="icon">🔔</div><h3>Follow-ups</h3><p>Never forget to follow up with a potential customer.</p></div>
+    <div class="card"><div class="icon">📅</div><h3>Appointments</h3><p>Send confirmations and reminder messages with ease.</p></div>
+    <div class="card"><div class="icon">✨</div><h3>AI Content</h3><p>Create offers, captions and customer-friendly messages faster.</p></div>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2 class="title">Simple pricing</h2>
+  <p class="sub">Start with a free trial. Upgrade when you see the value.</p>
+  <div class="grid">
+    <div class="card"><h3>Trial</h3><div class="price">FREE</div><ul><li>✓ 7-day trial</li><li>✓ Basic replies</li><li>✓ Follow-up templates</li></ul></div>
+    <div class="card"><h3>Starter</h3><div class="price">₹999<span style="font-size:14px">/month</span></div><ul><li>✓ Smart replies</li><li>✓ Follow-ups</li><li>✓ Offer messages</li></ul></div>
+    <div class="card"><h3>Growth</h3><div class="price">₹1,999<span style="font-size:14px">/month</span></div><ul><li>✓ Everything in Starter</li><li>✓ Appointment reminders</li><li>✓ AI content support</li></ul></div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <h2 class="title">Ready to save time?</h2>
+  <p>Book a free demo and see how Nexora can help your business.</p>
+  <a class="btn" href="mailto:hello@nexora.example?subject=Raj%20AI%20Free%20Demo">Request Free Demo</a>
+</section>
+
+<footer>© 2026 Nexora. Built to help small businesses work smarter.</footer>
+</body>
+</html>
